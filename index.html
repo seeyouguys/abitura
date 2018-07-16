@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="styles/styles.css">
+	<link rel="stylesheet" href="styles/bootstrap/bootstrap.min.css">
+	<link rel="stylesheet" href="styles/bootstrap/bootstrap-reboot.min.css">
+	<link rel="stylesheet" href="styles/bootstrap/bootstrap-grid.min.css">
+	<title>Abitura</title>
+</head>
+<body>
+	<!-- Инпуты для ввода информации -->
+	<div class="col-sm-6 offset-sm-3 top-offset">
+		<div class="card">
+
+			<div class="card-body">
+				<div class="container">
+					<div class="row mx-auto">
+						<label class="col-sm-12">
+							Количество бюджетных мест:
+							<input id="budget-seats" placeholder="" type="text">
+						</label>
+
+						<label class="col-sm-12">
+							Мои баллы:
+							<input id="my-score" placeholder="" value="230" type="text">
+						</label>
+						
+					</div>
+
+					<div class="row">
+						<textarea class="mx-auto col-sm-2" name="scoreboard" id="scoreboard" cols="30" rows="3" placeholder="Баллы всех абитуриентов"></textarea>
+					</div>
+
+				</div>
+				
+			
+			</div>
+			
+			<div class="card-footer">
+				<div class="row">
+					<div class="mx-auto">
+						<button id="btn" class="btn">Посчитать</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="results-block row">
+
+	</div>
+
+	<script src="js/decorative.js"></script>
+	<script src="/js/abitura-functions.js"></script>
+	<script src="/js/abitura-main.js"></script>
+</body>
+</html>
