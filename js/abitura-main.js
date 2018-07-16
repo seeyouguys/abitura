@@ -1,6 +1,4 @@
-
-document.querySelector('#budget-seats').value = 10
-document.querySelector('#my-score').value = 230
+// document.querySelector('#budget-seats').value = 10
 
 document.querySelector('#scoreboard').value = '100\n200\n300\n200\n200'
 
